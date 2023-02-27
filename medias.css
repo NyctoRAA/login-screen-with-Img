@@ -1,15 +1,58 @@
 @charset 'UTF-8';
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
+    .container {
+        width: 80vw;
+        height: 300px;
+    }
+
     .img {
         float: left;
+        width: 35%;
+        height: 100%;
+    }
+
+    .form {
+        float: right;
+        width: 65%;
+    }
+
+    .container h1 {
+        font-size: 2em;
+    }
+
+    .container p {
+        font-size: 18px;
+    }
+
+    .field > input[type=submit] {
+        margin: 30px 0px;
     }
 }
 
-@media screen and (min-width: 992px) and (max-width: 992px) {
 
-}
+@media screen and (min-width: 992px) {
+    .container {
+        width: 950px;
+        height: 312px;
+    }
 
-@media screen and (min-width: 1200px) {
+    .img {
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
 
+    .form {
+        float: right;
+        width: 50%;
+    }
+
+    .container h1 {
+        font-size: 2em;
+    }
+
+    .container p {
+        font-size: 18px;
+    }
 }
